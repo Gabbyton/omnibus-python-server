@@ -11,13 +11,14 @@ To deploy this app, clone this repository and run the module:
 ```
 pip install -r dependencies.txt
 ```
-3. In the root folder, enter the following command in the terminal:
+3. Add a file called `api_key.txt` in the root folder and paste your API key for Transloc inside the file.
+4. In the root folder, enter the following command in the terminal:
 
 ```
 python3 -m omnibus
 ```
 
-4. The terminal should now give you the ominous WSGI warning:
+5. The terminal should now give you the ominous WSGI warning:
 ```
 * Serving Flask app "omnibus.server" (lazy loading)
  * Environment: production
@@ -27,4 +28,4 @@ python3 -m omnibus
  * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
  ```
 
-5. For subsequent deployments, just run the module as indicated in step 3.
+6. For subsequent deployments, just run the module as indicated in step 3.
