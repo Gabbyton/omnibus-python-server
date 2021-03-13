@@ -28,4 +28,4 @@ python3 -m omnibus
  * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
  ```
 
-6. For subsequent deployments, just run the module as indicated in step 3.
+6. For subsequent deployments, just run the module as indicated in step 4.
